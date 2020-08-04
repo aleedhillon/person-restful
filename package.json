@@ -1,0 +1,29 @@
+{
+  "name": "person-restful",
+  "version": "1.0.0",
+  "description": "This is a Person RESTful API build using express.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "crud",
+    "restful"
+  ],
+  "author": {
+    "name": "Ali A. Dhillon",
+    "email": "aleedhx@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
